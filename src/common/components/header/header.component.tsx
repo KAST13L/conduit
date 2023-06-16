@@ -10,7 +10,7 @@ export const Header: FC = () => {
     { href: "/sign-up", title: "Sign Up" },
   ];
   const navLinkClasses = ({ isActive }: { isActive: boolean }) =>
-    clsx("py-navItem", {
+    clsx("py-navItem hover:text-black/60", {
       "text-black/30": !isActive,
       "text-black/80": isActive,
     });
