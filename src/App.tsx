@@ -1,3 +1,7 @@
+import {Header} from "./common/components/header/header.component.tsx";
+
 export const App = () => {
-  return <h1 className="text-4xl font-bold underline text-red-500">Hello world!</h1>;
+  return <div>
+    <Header/>
+  </div>
 };
