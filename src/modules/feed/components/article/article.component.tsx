@@ -34,7 +34,7 @@ export const Article: FC = () => {
           veriatkas okurok persizxc error and boundary
         </p>
         <div className={"flex justify-between"}>
-          <span className={"text-conduit-gray-800 text-date font-light"} >Read more....</span>
+          <span className={"text-conduit-gray-800 text-date font-light"} >Read more...</span>
           <TagList/>
         </div>
       </div>
